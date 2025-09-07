@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a9a9a9;
+            line-height: 1.6;
+        }
+
+        .Introductions{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: #e7e7e7;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .intro-text {
+            flex: 1;
+        }
+        .intro-image {
+            float: right;
+            margin-left: 15px;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        header{
+            background: #deb887;
+            padding: 15px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .hobbies, .learn, .fun-fact {
+            background: #e7e7e7;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: square;
+        }
+
+        .top-image {
+            display: block;
+            margin: 20px auto;
+            width: 800px;   
+            height: 800px;  
+            object-fit: cover; 
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Joe Chavez's Introductions Website</h1>
+            <h1>Preferred name: Joe</h1>
+            <h1>Email: <a href="mailto:josephrchavez1@lewisu.edu">josephrchavez1@lewisu.edu</a></h1>
+            <h1>Discord: DankerLicense80</h1>
+            <img src="me.jpg" alt="Picture of me" class="top-image">
+        </header>
+
+        <section class="Introductions">
+            <div class="intro-text">
+                <h2>Introductions</h2>            
+                <p>
+                    Hello everyone my name is Joe. I am from Romeoville, and one of my hobbies is playing video games. 
+                    A little about my family, I am the youngest of four siblings. I have two older brothers and one older sister. 
+                    Lastly I am a senior currently majoring in computer science and have already opbtained my associates 
+                    of applied science in computer programming.  
+                </p>
+            </div>
+
+            <img src="me.jpg" alt="Picture of me" class="intro-image">
+        </section>
+        <section class="learn">
+            <h2>What I Hope to Learn in This Course</h2>
+            <ul>
+                <li>How to work in a scrum</li>
+                <li>Software engineering skills</li>
+            </ul>
+        </section>
+        <section class="hobbies">
+            <h2>My Favorite Hobbies</h2>
+            <ul>
+                <li>Playing video games</li>
+                <li>Watching movies</li>
+                <li>Watching sports</li>
+                <li>Hanging out with friends</li>
+            </ul>
+            <p>
+                Since one of my hobbies is playing video games here is a link
+                describing my favorite game of all time <a href="https://reddead.fandom.com/wiki/Red_Dead_Redemption_2">Read Dead Redemption 2</a>.
+            </p>
+        </section>
+        <section class="fun-fact">
+            <h2>Fun Fact</h2>
+            <p>A fun fact about me is that I have a 10 year age gap with my siblings</p>
+        </section>
+    </main>
+</body>
+</html>
